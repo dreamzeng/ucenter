@@ -1,0 +1,66 @@
+[
+    {
+        "label": "财产案件",
+        "options": [
+            {
+                "value": 1,
+                "label": "财产案件"
+            }
+        ]
+    },
+    {
+        "label": "非财产案件",
+        "options": [
+            {
+                "value": 2,
+                "label": "离婚案件"
+            },
+            {
+                "value": 3,
+                "label": "人格权案件"
+            },
+            {
+                "value": 4,
+                "label": "知识产权案件"
+            },
+            {
+                "value": 5,
+                "label": "劳动争议案件"
+            },
+            {
+                "value": 6,
+                "label": "管辖权异议不成立的案件"
+            }
+        ]
+    },
+    {
+        "label": "行政案件",
+        "options": [
+            {
+                "value": 7,
+                "label": "商标、专利、海事行政案件"
+            },
+            {
+                "value": 8,
+                "label": "其他行政案件"
+            }
+        ]
+    },
+    {
+        "label": "申请费",
+        "options": [
+            {
+                "value": 9,
+                "label": "执行费"
+            },
+            {
+                "value": 10,
+                "label": "支付令"
+            },
+            {
+                "value": 11,
+                "label": "公示催告"
+            }
+        ]
+    }
+]

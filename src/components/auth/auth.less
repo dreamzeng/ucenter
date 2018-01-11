@@ -1,0 +1,264 @@
+.u-auth-license-modal{
+    .ivu-modal-header, .ivu-modal-footer{
+        border: 0px;
+        text-align: center;
+    }
+    .ivu-modal-header{
+        height: 50px;
+        line-height: 50px;
+        background: #f7f8f9;
+        padding: 0px;
+    }
+    .ivu-modal-footer{
+        .ivu-btn{
+            width: 110px;
+            height: 40px;
+            margin-bottom: 30px;
+        }
+    }
+    .u-license-upload{
+        text-align: center;
+        .upload-box{
+            display: inline-block;
+            width: 315px;
+            height: 315px;
+            background: #7d7d7d;
+            position: relative;
+            .img{
+                background: #fff;
+                width: 265px;
+                height: 175px;
+                position: absolute;
+                left: 27px;
+                top: 77px;
+            }
+            .upload-btn{
+                position: absolute;
+                bottom: -30px;
+                font-size: 16px;
+                color: #009aff;
+                cursor: pointer;
+            }
+        }
+    }
+    
+}
+
+
+.u-auth-lawyer-info{
+    padding: 100px;
+    width: 840px;
+    margin: 0 auto;
+    background: #fff;
+    position: relative;
+    .u-banner{
+        background: url('../../../static/images/auth_banner_bg.png');
+        width: 840px;
+        height: 106px;
+        position: absolute;
+        left:0px;
+        top: 0px;
+
+        img{
+            position: absolute;
+            left: 136px;
+            top: 33px;
+        }
+    }
+    //基本资料
+    .u-base-info-banner{
+        background: url('../../../static/images/base_info_bg.png');
+        width: 840px;
+        height: 250px;
+        position: absolute;
+        left:0px;
+        top: 0px;
+        text-align: center;
+        img, .u-base-info-edit-pic{
+            position: absolute;
+            left: 350px;
+            top: 50px;
+            background: #fff;
+            width: 138px;
+            height: 138px;
+            line-height: 138px;
+            border-radius: 50%;
+        }
+        .u-base-info-edit-pic{
+            background: rgba(59,59,59,0.7);
+            color: #fff;
+            font-size: 16px;
+            opacity: 0;
+            transition: all 1s;
+            &:hover{
+                opacity: 1;
+                cursor: pointer;
+            }
+            .webuploader-pick{
+                width: 138px;
+                height: 138px;
+                border-radius: 50%;
+                background: rgba(59,59,59,0.7);
+            }
+        }
+    }
+    .u-tab{
+        text-align: center;
+        margin: 50px 0px ;
+    }
+    .u-lawyer-info{
+        .ivu-input{
+            border: 0px;
+            border-bottom: 1px solid #dddee1;
+            transition: box-shadow 2s;
+            &:focus{
+                border-bottom-color: rgba(45,140,240, 1);
+                box-shadow: 0 0 0 2px rgba(255, 255, 255, 1);
+                border-radius: 0px;
+            }
+        }
+    }
+    .u-lawyer-info, .u-license-pic{
+        .u-auth-btn{
+            .ivu-form-item-content{
+                margin-left: 0px;
+                text-align: center;
+            }
+        }
+        .ivu-btn{
+            width: 170px;
+            height: 40px;
+            text-align: center;
+        }
+    }
+    .u-license-pic{
+        text-align: center;
+        .license-pic-box{
+            margin-top: 30px;
+            display: inline-block;
+            background: #aed2fd;
+            width: 284px;
+            padding: 30px;
+            border-radius: 8px;
+            position: relative;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+            .webuploader-pick{
+                background: rgba(255,255,255,0.0001);
+                width: 60px;
+                height: 60px;
+                top: -100px;
+                left: 34%;
+                position: absolute;
+            }
+            .webuploader-pick-hover{
+                i.license-add-icon{
+                    background: url('../../../static/images/license_add_hover.png');
+                }
+            }
+            i.license-add-icon{
+                position: absolute;
+                width: 60px;
+                height: 60px;
+                left:41%;
+                top:32%;
+                background: url('../../../static/images/license_add_default.png');
+                &:hover{
+                    background: url('../../../static/images/license_add_hover.png');
+                    cursor: pointer;
+                }
+            }
+        }
+        .license-button{
+            margin-top: 30px;
+        }
+    }
+
+    .u-lawyer-auth-status{
+        text-align: center;
+        font-size: 14px;
+        .auth-box{
+            text-align: center;
+            width: 173px;
+            display: inline-block;
+        }
+        .auth-text{
+            margin: 30px 0px;
+        }
+        .auth-back{
+            font-size: 18px;
+            .auth-back-err{
+                color: #999;
+            }
+            .ivu-btn-text{
+                font-size: 18px;
+                padding: 0px;
+                margin-left: 0px;
+            }
+        }
+    }
+
+}
+
+.u-base-info-container{
+    border: 1px solid #efefef;
+    /*基本资料表单*/
+    .u-base-info-form{
+        margin-top: 150px;
+        padding-top: 35px;
+        h4{
+            font-size: 18px;
+            padding: 0px 0px 30px 30px;
+            position: relative;
+            .u-base-info-show-pic{
+                position: absolute;
+                right: 0px;
+            }
+        }
+        .u-base-info-input{
+            background: #f7f8f9;
+            height: 145px;
+            padding: 30px 0px 0px 20px;
+        }
+        .u-base-info-edit{
+            position: absolute;
+            right: 10px;
+            top: 0px;
+            cursor: pointer;
+        }
+        .u-base-info-select-edit{
+            right: 10px;
+        }
+        .ivu-input-disabled{
+            background-color: #fff;
+        }
+        .ivu-select-disabled .ivu-select-selection{
+            background-color: #fff;
+            .ivu-icon-arrow-down-b{
+                &:before{
+                    content: '';
+                }
+            }
+        }
+        .u-base-info-pic-container{
+            text-align: center;
+            margin-top: 20px;
+            .pic-container{
+                width: 285px;
+                height: 190px;
+                background: #aed2fd;
+                border-radius: 6px;
+                text-align: center;
+                display: inline-block;
+                img{
+                    width: 245px;
+                    height: 150px;
+                    margin-top: 20px;
+                    border-radius: 6px;
+                }
+            }
+        }
+    }
+}

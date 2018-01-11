@@ -1,0 +1,59 @@
+@import 'base.less';
+.ivu-modal-wrap{bottom: auto;bottom: 0px\0;}
+.vertical-center-modal{top: 50%;top: 38%\0; /*ie9 hack*/ transform: translate(0%,-50%);-ms-transform: translate(0%,-38%);
+  .ivu-modal{top:auto;}
+    }
+.u-service-modal{
+  .ivu-modal-content{padding-bottom: 20px;
+    .ivu-modal-header{text-align: center;background: #f7f9f9;border: 0px;border-bottom: #efefef}
+      .ivu-modal-body{padding-top: 30px;font-size: 14px;
+        .title{font-size: 16px}
+        .price_range{font-size: 14px; color: #ccc;
+            em{display:none;margin-left:10px;font-style: normal;color: #f60}
+        }
+        .ivu-input-type{ margin: 3px 0px;}
+        .ivu-input{ height: 50px;padding: 0px 15px; font-size: 18px;}
+        ul{
+            li{ .fl(); margin-bottom: 15px;
+                .s-fl{.fl()}
+                .s-fr{.fl();width:360px;margin-left: 20px;display: inline-block;}
+                .u-service-scope{width: 165px;background: #f7f8f9;padding: 10px 16px;margin-right: 13px;border: 1px solid #efefef;
+                  .ivu-checkbox-wrapper{.fr()}
+                }
+            }
+          }
+        }
+      .ivu-modal-footer{text-align: center;border: 0px;
+        .ivu-btn{width: 108px}
+        }
+      }
+    }
+.u-service-mgr-container{
+  .u-service-panel{.fl();max-width: 31.33%;min-width: 298px;width: 498px; height: 222px;margin: 0px 2% 30px 0px;padding: 28px;
+    display: table-cell;.animate(0.5s);    
+   .u-service-panel-desc{font-size: 16px;overflow: hidden;display: table;.strLen();
+     ul{margin-left: 20px;
+        li{.fl(); height: 26px;line-height: 26px; width: 100%;min-width: 120px; max-width: 295px; display: table;
+            &:last-of-type{ margin-top: 10px;color: #CACACA;}
+            .u-fl,.u-fr{display: table-cell;.strLen();}
+            .u-price-container{width: 100%;
+              .u-price{color: #FF6363}
+            }
+            
+        }
+      }
+    .u-service-pic{display: table-cell;height: 120px;width: 120px; vertical-align: middle;
+      img{ width: 100%;height: 120px; background: rgba(0, 0, 0, 0.3);border:1px solid #ddd;}
+      }
+    .u-service-price{display: table-cell;
+        li{span.u-fr{color: #409EFF}}
+        li:nth-child(3){};
+      }
+    }
+    .u-service-panel-btn{.fr();margin-top:10px;width: 234px;min-width: 150px;text-align: right;
+        .open{color: #409EFF;background-color: #fff;border-color: #409EFF;}
+        .el-button{border-radius: 20px;width: 108px}
+        .el-button--info{background: #F7F8F9;border-color: #EAEAEA;color: #666}
+    }
+  }
+}

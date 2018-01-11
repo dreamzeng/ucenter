@@ -1,0 +1,58 @@
+@import 'base.less';
+.ivu-modal-header,.ivu-modal-footer{ border:none;padding: 0}
+.ivu-modal-footer{text-align: center;padding-top: 0px;padding-bottom: 30px;
+   .ivu-btn-text{display: none}
+   .ivu-btn-primary {border-radius: 20px}
+  }
+.modal_con{text-align:center;font-size: 14px;
+   p{ line-height: 30px;
+    span{display: block;font-weight: bold;font-size: 16px}
+  }
+}
+.icon-phone-success{ width: 140px; height: 95px;display:block; .phone_success_icon();margin-left: 180px}
+.icon-pwd-success{ width: 140px; height: 95px;display:block;.pwd_success_icon();margin-left: 180px}
+.content_box{width: 840px; margin: 0 auto;padding: 0px;background: #fff;
+  li{padding:0px 65px;border-bottom: 1px solid #f7f8f9;font-size: 14px;color:#999;
+    h4{font-size: 16px; height: 60px; line-height: 60px;color: #333;border-bottom: 1px solid #f7f8f9;
+      span{.fr;margin-right: 25px;font-size: 14px;
+        a{color: #666;
+          &:hover{ color: #2d8cf0}
+         }
+       }
+      em{ margin-left: 25px;font-size: 14px;color: #999;
+        b{font-weight:normal;color: #333}
+      }
+    }
+    h4:nth-child(0){border-bottom: none;}
+    .ivu-form{font-size: 14px;
+      .code{position: relative;width: 335px;
+        a{position: absolute;right: 10px;top: 8px;padding-left: 10px;width:116px;height: 25px;line-height: 28px;font-size:14px;text-align: center;
+          border-left: 1px solid #dddee1;}
+      }
+      .ivu-btn-primary.on{filter: alpha(opacity=80);-moz-opacity: 0.5;opacity: 0.5;.animate(1s)}
+      .ivu-btn-primary.off{filter: alpha(opacity=100);-moz-opacity: 1;opacity: 1;}
+      .ivu-input{height: 40px;}
+      .ivu-form-item{margin-bottom: 10px;
+         .ivu-form-item-label{font-size: inherit;color: inherit;}
+         .ivu-form-item-content{font-size: 14px;
+           span.old_phone{color: #333}
+         }
+         .ivu-input-wrapper{width: 335px}
+         .ivu-form-item-error-tip{position: inherit;}
+      }
+     
+    }
+ }
+  .ivu-tabs-nav-container{line-height: 50px;font-size: 16px;margin-left: 300px;
+    .ivu-tabs-tab{}
+  }
+  .layout-content-main{padding: 20px 40px;
+    .success_icon{display: inline-block; width: 20px; height: 20px;.success_icon()}
+    .edit-phone{
+      label{ width: 630px;display: inline-block;}
+     }
+    }
+  .ivu-message{
+     .ivu-message-notice-content{background-color: rgba(0,0,0,.6);color: #fff}
+    }
+  }

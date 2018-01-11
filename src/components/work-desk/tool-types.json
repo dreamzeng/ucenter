@@ -1,0 +1,58 @@
+{
+    "1": {
+        "name": "司法通讯录",
+        "path": "justice-contact"
+    },
+    "2": {
+        "name": "文书下载",
+        "path": "wsxz"
+    },
+    "3": {
+        "name": "工伤赔偿计算",
+        "path": "gspcj"
+    },
+    "4": {
+        "name": "交通赔偿计算",
+        "path": "jtpcj"
+    },
+    "5": {
+        "name": "诉讼费计算器",
+        "path": "legal_cost"
+    },
+    "6": {
+        "name": "劳动补偿计算器",
+        "path": "labour_cost"
+    },
+    "7": {
+        "name": "日期计算器",
+        "path": "date_count"
+    },
+    "8": {
+        "name": "人身损害计算器",
+        "path": "personal_injury"
+    },
+    "9": {
+        "name": "裁决书逾期利息计算",
+        "path": "award_overdue"
+    },
+    "10": {
+        "name": "离婚房产分割计算器 ",
+        "path": "divorce_house"
+    },
+    "11": {
+        "name": "房屋还贷计算器",
+        "path": "house_repayment"
+    },
+    "12": {
+        "name": "个人所得税计算器",
+        "path": "personal_tax"
+    },
+    "13": {
+        "name": "财产保全计算器",
+        "path": "property_preservation"
+    },
+    "14": {
+        "name": "案件管理",
+        "path": "ajgl"
+    }
+}

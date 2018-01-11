@@ -1,0 +1,86 @@
+/********** icon图标 **********/
+.icon{
+  background-image: url(../img/sprite.png);display: inline-block;    line-height: 1;
+    vertical-align: middle;
+}
+.icon-job {
+ .icon;
+  background-position: 0px -24px;
+  width: 18px;
+  height: 18px;
+}
+.icon-manage {
+ .icon;
+  background-position: -48px -23px;
+  width: 16px;
+  height: 18px;
+}
+.icon-setup {
+  .icon;
+  background-position: -23px -24px;
+  width: 18px;
+  height: 18px;
+}
+.icon-tiding {
+  .icon;
+  background-position: -48px 0px;
+  width: 18px;
+  height: 18px;
+}
+.icon-msg {
+  .icon;
+  background-position: 0px 0px;
+  width: 19px;
+  height: 19px;
+}
+.icon-quit {
+  .icon;
+  background-position: -24px 0px;
+  width: 19px;
+  height: 19px;
+}
+.icon-success{
+  .icon;
+  background-position: 0px -47px;
+  width: 14px;
+  height: 14px;
+}
+
+
+/********** 图标类型 **********/
+.no_collect(@x:center; @y:center; @size:90%; @repeat:no-repeat;){
+  background-image: url('../img/no-collect.png');
+  background-position:@x @y;
+  background-size: @size;
+  background-repeat:@repeat;
+}
+
+.no_tiding(@x:center; @y:center; @size:80%; @repeat:no-repeat;){
+  background-image: url('../img/no-tiding.png');
+  background-position:@x @y;
+  background-size: @size;
+  background-repeat:@repeat;
+}
+
+.success_icon(@x:5px; @y:7px; @size:66%; @repeat:no-repeat;){
+  background-image: url('../img/success-icon.png');
+  background-position:@x @y;
+  background-size: @size;
+  background-repeat:@repeat;
+
+}
+.pwd_success_icon(@x:center; @y:center; @size:90%; @repeat:no-repeat;){
+  background-image: url('../img/pwd-success.png');
+  background-position:@x @y;
+  background-size: @size;
+  background-repeat:@repeat;
+
+}
+.phone_success_icon(@x:center; @y:center; @size:90%; @repeat:no-repeat;){
+  background-image: url('../img/phone-success.png');
+  background-position:@x @y;
+  background-size: @size;
+  background-repeat:@repeat;
+
+}
+

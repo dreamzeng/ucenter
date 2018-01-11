@@ -1,0 +1,44 @@
+
+/********** 基本样式 **********/
+@import "icon.less";             //图标样式
+@import "color.less";            //颜色风格
+
+
+//浮动
+.fl(){float:left;}
+.fr(){float:right;}
+.border(){border: 1px solid #EAEAEA;}
+.clear{clear:both;}
+.clearfix{clear: both; zoom:1;}
+.clearfix:after{clear:both; display:block; height:0; font-size:0; content:"."; visibility:hidden;}
+
+//水平并排相关
+.lineBlockBox(@align:left){display:table; text-align:@align; width:100%; font-size:0; letter-spacing:-3px;  word-spacing:-3px;}
+.lineBlock(@align:middle){display:inline-block; *display:inline; *zoom:1; vertical-align:@align; font-size:@12px; letter-spacing:normal; word-spacing:normal;}
+.lineBlockBoxs(@align:left){display:table; width:100%; text-align:@align; font-size:0; letter-spacing:-3px;word-spacing:-3px;
+  >*{.lineBlock;}
+}
+
+//处理超出字符
+.strLen(){text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+.strLen2(){text-overflow:ellipsis; display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
+//动画时间
+.animate(@time:0.5s;){transition:all @time; -moz-transition:all @time; -o-transition:all @time; -ms-transition:all @time; -webkit-transition:all @time;}
+
+//旋转相关
+.rotate(@rotate:180deg){transform:rotate(@rotate); -moz-transform:rotate(@rotate); -ms-transform:rotate(@rotate); -o-transform:rotate(@rotate); -webkit-transform:rotate(@rotate);}
+
+.fade-enter-active, .fade-leave-active {
+   transition: all 0.5s ease;
+ }
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+//表单风格统一样式
+.ivu-btn{line-height: 1;margin-left: 10px;padding: 12px 23px;box-sizing: border-box; font-size: 14px;}
+.ivu-btn-circle, .ivu-btn-circle-outline{border-radius: 20px; padding: 10px 32px;}
+.ivu-checkbox-checked .ivu-checkbox-inner{background: #fff;border-color: #999}
+.ivu-checkbox-checked .ivu-checkbox-inner:after{border-color: #0099ff}
+.ivu-modal-header p, .ivu-modal-header-inner{font-weight: normal;font-size: 16px}
+
+

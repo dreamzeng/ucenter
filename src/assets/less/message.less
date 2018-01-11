@@ -1,0 +1,21 @@
+@import 'base.less';
+.msg_content_box{width: 840px; margin: 0 auto;padding: 0px;background: #fff;font-size: 16px;color: #333;
+  .layout-header{line-height: 40px; padding: 10px 30px;border-bottom: 2px solid #f7f8f9;
+    .ivu-btn{float: right;}
+  }
+  .layout-content-main{min-height: 400px;
+      li{width:100%;border-bottom: 1px solid #f7f8f9;padding:20px 20px 20px 30px;line-height: 25px;background: url('../img/disc.png') 13px 28px no-repeat;
+        a{color: #333;display: block;line-height: auto;
+         &:hover{color:#0099ff}
+        }
+        p{font-size:12px;color: #ccc;}
+      }
+      li.on{background: none;
+        a{color: #999}
+      }
+    .no-data{position: relative;
+        i{position: absolute;.no_tiding();width: 140px; height: 130px;display: block;left: 50%;top: 135px; transform: translate(-50%,0%)}
+      }
+    .ivu-page{line-height: 60px; text-align: center;font-size: 14px}
+   }
+  }

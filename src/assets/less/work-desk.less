@@ -1,0 +1,44 @@
+@text-color: #fea500;
+
+.u-count-result{
+    display: table;
+    margin: 0 auto;
+    .u-count-base{
+        border:  3px solid @text-color;
+        border-radius: 100%;
+        margin-right: 50px;
+        margin-bottom: 50px;
+        position: relative;
+        display: table;
+        width: 210px;
+        height: 210px;
+        .u-count-text{
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+        }
+        &:first-of-type{
+            float: left;
+        }
+        &::after{
+            content: '';
+            display: block;
+            border: 1px solid #fee9db;
+            width: 230px;
+            height: 230px;
+            border-radius: 100%;
+            position: absolute;
+            left: -13px;
+            top: -13px;
+            left: -10px ~"\9";
+            top: -10px ~"\9";
+        }
+        p{
+            color: @text-color;
+            line-height: 42px;
+        }
+        p.u-number{
+            font-size: 45px;
+        }
+    }
+}
